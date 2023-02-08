@@ -1,0 +1,29 @@
+.bg-page{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards-section{
+    padding: 0 1rem;
+    min-width: 100%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chart-section{
+        min-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.bar-chart{
+    min-width: 100%;
+    min-height: 100%;
+}
+text > tspan{
+    fill:azure;
+}

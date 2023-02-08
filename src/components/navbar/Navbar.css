@@ -1,0 +1,30 @@
+.navbar{
+    padding: 0rem 1rem;
+    min-width: 72vw;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 44);
+    border-radius: 10px;
+    position: sticky;
+}
+
+.logo-title{
+    font-size: clamp(18px, 20px, 22px);
+    font-style: italic;
+}
+
+.logo-title > span{
+    color:slategrey
+}
+
+.account-div{
+    display: flex;
+    gap:1rem;
+}
+
+.nav-icons{
+    cursor: pointer;
+}

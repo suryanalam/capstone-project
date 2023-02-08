@@ -1,0 +1,41 @@
+.card{
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    background-color: azure;
+    color:rgb(24, 24, 44);
+}
+.icon-div{
+    min-width:40%;
+    min-height: 100%;
+    color:slategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 15px 0 0 15px;
+    background-color: rgb(24, 24, 44);
+}
+
+.details-div{
+    padding: 1rem;
+    min-width:60%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-name{
+    font-weight: 700;
+    font-style: italic;
+    font-size: clamp(20px, 22px, 24px)
+}
+.card-value{
+    font-size: 25px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
