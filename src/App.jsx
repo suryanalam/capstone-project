@@ -12,6 +12,7 @@ import Products from './pages/products/Products'
 import Profile from './pages/profile/Profile'
 
 function App() {
+  console.log("app js file updated")
   return (
     <div className="App">
         <Sidebar />
