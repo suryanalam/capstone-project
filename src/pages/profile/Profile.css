@@ -1,61 +1,67 @@
-.bg-profile{
-    min-width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-around;
+.bg-profile {
+  min-width: 70vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.image-div{
-    padding: 0.2rem;
-    width:100%;
-    height:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.image-div > img{
-    width:100%;
-    height:100%;
-    position: absolute;
-}
-.info-div{
-    padding: 1rem;
-    padding-left: 3rem;
-    min-width: 60%;
-    min-height: 100%;
-    background-color: rgb(24, 24, 44);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap:1rem;
+.image-div {
+  padding: 0.2rem;
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.info-div > h3 > span{
-    color: slategrey;
-    font-weight: 500;
+.image-div > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-.info-div > h3 > a{
-    text-decoration: none;
+.info-div {
+  padding: 1rem;
+  padding-left: 3rem;
+  min-width: 70%;
+  min-height: 80vh;
+  background-color: rgb(24, 24, 44);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 0 15px 15px 0;
+  gap: 1rem;
 }
 
-.info-div > h3 > a > span{
-    color: slategrey;
-    font-weight: 500;
+.info-div > h3 > span {
+  color: slategrey;
+  font-weight: 500;
 }
-.social-media{
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
+
+.info-div > h3 > a {
+  text-decoration: none;
 }
-.sm-icons{
-    color:slategrey;
-    cursor:pointer;
+
+.info-div > h3 > a > span {
+  color: slategrey;
+  font-weight: 500;
 }
-.sm-icons:hover{
-    color:azure;
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.sm-icons {
+  color: slategrey;
+  cursor: pointer;
+}
+
+.sm-icons:hover {
+  color: azure;
 }

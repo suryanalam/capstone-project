@@ -12,7 +12,6 @@ import Products from './pages/products/Products'
 import Profile from './pages/profile/Profile'
 
 function App() {
-  console.log("app js file updated")
   return (
     <div className="App">
         <Sidebar />
@@ -25,7 +24,7 @@ function App() {
                     <Route path="/Customers" element={<Customers />}></Route>
                     <Route path="/Profile" element={<Profile />}></Route>
                 </Routes>
-              </div>
+            </div>
         </div>
     </div>
   );

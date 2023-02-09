@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .App{
     min-width: 100vw;
     min-height: 100vh;
@@ -10,34 +11,55 @@
     flex-direction: row;
     background-color: slategray;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:1rem;
 }
+
 .body-container{
-    margin: 2rem 0;
+    min-width: 70vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    color:azure;
 }
 
 .main-container{
-    padding: 1rem;
-    margin: 1rem 0;
-    min-width: 72vw;
-    min-height: 75vh;
+    min-width: 70vw;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid rgb(24, 24, 44);
-    border-radius: 10px;
+    color: azure;
+    border-radius: 15px;
 }
 
-.bg-page{
-    min-width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+table{
+    min-width: 70vw;
+    min-height: 70vh;
+    color: azure;
+    background-color: slategrey;
+    border-collapse: collapse;
+}
+
+thead > tr{
+    padding: 5px;
+    background-color: rgb(24, 24, 44);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(24, 24, 44);
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    padding:1rem;
 }
