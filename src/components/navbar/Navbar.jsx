@@ -13,7 +13,9 @@ const Navbar = () => {
       </div>
       <div className="account-div">
         <IoMdNotifications className="nav-icons" size="1.5rem" />
-        <NavLink exact to="Profile"><FaUserCircle className="nav-icons" size="1.5rem" /></NavLink>  
+        <NavLink exact to="Profile">
+          <FaUserCircle className="nav-icons" size="1.5rem" />
+        </NavLink>
       </div>
     </div>
   );

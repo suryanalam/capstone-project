@@ -5,10 +5,7 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-
-      <div className="circle-div">
-        <img src={profile_img} alt="pic" />
-      </div>
+      <div className="circle-div"></div>
 
       <div className="profile-div">
         <h2 className="username">Surya Nalam</h2>
@@ -16,7 +13,7 @@ const Sidebar = () => {
       </div>
 
       <div className="list-div">
-        <NavLink exact to="Dashboard" className="list-item">
+        <NavLink to="Dashboard" className="list-item" active>
           <p>Dashboard</p>{" "}
         </NavLink>
         <NavLink to="Products" className="list-item">
@@ -36,9 +33,8 @@ const Sidebar = () => {
           <span>&copy;</span> Copyright 2023
         </p>
       </div>
-
     </div>
   );
-}
+};
 
 export default Sidebar;

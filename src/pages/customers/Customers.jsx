@@ -13,7 +13,7 @@ const Customers = () => {
         <thead>
           <tr>
             <th>Id</th>
-            <th>Name</th>
+            <th>Customers</th>
             <th>Email</th>
             <th>Role</th>
           </tr>

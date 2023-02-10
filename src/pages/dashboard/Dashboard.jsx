@@ -1,23 +1,19 @@
 import React from "react";
 import "./Dashboard.css";
-import info from '../../info.json';
 import Card from "../../components/card/Card";
+import BarChartSection from "../../components/bar-chart/BarChartSection";
+import PieChartSection from "../../components/pie-chart/PieChartSection";
+
+//icons:
 import { FaUsers } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-} from "recharts";
 
 const Dashboard = () => {
   return (
     <div className="bg-page">
+      <h1 className="dashboard-title">Business Analytics</h1>
+      <hr />
       <div className="cards-section">
         <Card card_name="Customers" card_value="100" card_icon={<FaUsers />} />
         <Card
@@ -31,25 +27,10 @@ const Dashboard = () => {
           card_icon={<RiMoneyDollarCircleFill />}
         />
       </div>
+      <hr />
       <div className="chart-section">
-        <BarChart
-          className="bar-chart"
-          width={1000}
-          height={300}
-          data={info.data}
-          margin={{ top: 5, right: 10, left: 10, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="1" />
-          <XAxis dataKey="name" fill="rgb(24, 24, 44)" />
-          <YAxis fill="rgb(24, 24, 44)" />
-          <Tooltip />
-          <Legend />
-          <Bar
-            dataKey="sales"
-            fill="rgb(24, 24, 44)"
-            background={{ fill: "azure" }}
-          />
-        </BarChart>
+        <BarChartSection />
+        <PieChartSection />
       </div>
     </div>
   );

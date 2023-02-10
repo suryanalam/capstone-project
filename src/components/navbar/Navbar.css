@@ -1,31 +1,31 @@
-.navbar{
-    padding: 0.5rem 1rem;
-    min-width: 70vw;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(24, 24, 44);
-    color: azure;
-    border-radius: 15px;
-    position: sticky;
+.navbar {
+  padding: 0.5rem 1rem;
+  min-width: 70vw;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light);
+  color: azure;
+  border-radius: 15px;
+  position: sticky;
 }
 
-.logo-title{
-    font-size: clamp(16px, 20px, 20px);
-    font-style: italic;
+.logo-title {
+  font-size: clamp(16px, 20px, 20px);
+  font-style: italic;
 }
 
-.logo-title > span{
-    color:slategrey
+.logo-title > span {
+  color: var(--dark);
 }
-.account-div{
-    min-height: 100%;
-    display: flex;
-    gap:1rem;
+.account-div {
+  min-height: 100%;
+  display: flex;
+  gap: 1rem;
 }
-.nav-icons{
-    cursor: pointer;
-    color:azure
+.nav-icons {
+  cursor: pointer;
+  color: azure;
 }

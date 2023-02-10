@@ -1,29 +1,46 @@
-.bg-page{
-    min-width: 70vw;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.bg-page {
+  padding: 1rem;
+  min-width: 75vw;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.cards-section{
-    min-width: 70vw;
-    min-height: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.cards-section {
+  min-width: 75vw;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.chart-section{
-    min-width:70vw;
-    min-height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.chart-section {
+  min-width: 75vw;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.bar-chart{
-    min-width: 100%;
-    min-height: 100%;
+.dashboard-title {
+  font-size: 3vw;
+  color: var(--light);
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px slategrey;
+  letter-spacing: 2px;
 }
-text > tspan{
-    fill:azure;
+.dashboard-title:hover {
+  color: slategrey;
+  -webkit-text-stroke: 1px var(--dark);
+}
+
+hr {
+  width: 100%;
+  border: 1px solid slategrey;
+}
+
+/* bar chart labels color */
+text > tspan {
+  fill: slategrey;
 }

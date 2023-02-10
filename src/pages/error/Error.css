@@ -1,0 +1,14 @@
+.error-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-msg {
+  text-shadow: 0.05em 0 0 rgb(255, 0, 0, 0.75),
+    -0.025em -0em 0 rgba(0, 255, 0, 0.75), 0.025em 0.04em 0 rgb(0, 0, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 3.5vw;
+}
